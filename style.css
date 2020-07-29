@@ -1,0 +1,18 @@
+#container {
+    display: grid;
+    row-gap: 1px;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: 4fr repeat(48, 1fr);
+    column-gap: 1px;
+}
+
+span {
+    text-align: center;
+}
+
+.place {
+    background-color: beige;
+}
